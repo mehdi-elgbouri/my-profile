@@ -1,0 +1,161 @@
+/* Sélecteur pour le corps de la page */
+header {
+	text-align : center;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 60px;
+    padding: 0;
+}
+
+/* Sélecteur pour les en-têtes de niveau 1 */
+h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Sélecteur pour les paragraphes */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Sélecteur pour les liens */
+a {
+    text-decoration: none;
+    color: #007acc;
+    transition: color 0.3s;
+}
+
+/* Changement de couleur au survol */
+a:hover {
+    color: #ff6600;
+}
+
+/* Style pour la barre de navigation */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+/* Style pour la liste non ordonnée dans la barre de navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style pour les éléments de liste dans la barre de navigation */
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Style pour les sections du contenu */
+section {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+/* Style pour les images */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+/* Style pour le pied de page */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style pour les liens du pied de page */
+footer a {
+    color: #ff6600;
+}
+
+/* Continuation du style pour arrondir les coins des éléments */
+
+/* Arrondir les coins de la barre de navigation */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 10px; /* Coins arrondis pour la barre de navigation */
+}
+
+/* Arrondir les coins de la liste de navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Arrondir les coins des éléments de la liste de navigation */
+nav li {
+    display: inline;
+    margin-right: 20px;
+    border-radius: 5px; /* Coins arrondis pour chaque élément de la liste */
+}
+
+/* Arrondir les coins des sections du contenu */
+section {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    border-radius: 10px; /* Coins arrondis pour les sections du contenu */
+}
+
+/* Arrondir les coins des images */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px; /* Coins arrondis pour les images */
+}
+
+/* Arrondir les coins du pied de page */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px; /* Coins arrondis pour le pied de page */
+}
+
+/* Styles pour les liens du pied de page */
+footer a {
+    color: #ff6600;
+    text-decoration: none;
+    border-bottom: 1px dotted #ff6600; /* Ajoute une ligne pointillée au survol */
+    transition: border-bottom 0.3s; /* Ajoute une transition en douceur */
+}
+
+/* Changement de style au survol des liens du pied de page */
+footer a:hover {
+    border-bottom: 2px solid #ff6600; /* Épaissit la ligne au survol */
+}
+
+#pdp {
+	border-radius : 50%;
+	height : 250px;
+	width : 250px;
+}
+
+#job {
+	text-align: center;
+}
